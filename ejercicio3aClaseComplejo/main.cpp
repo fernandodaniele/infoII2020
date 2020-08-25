@@ -18,5 +18,5 @@ int main(){
 	n3 = n1.restaComplejo(n2);
 	cout << "La resta es: ";
 	n3.imprimirComplejo();
-	n3.establecerComplejo(9,43).imprimirComplejo();
+	n3.establecerComplejo(9,43).imprimirComplejo().establecerReal(2).imprimirComplejo();
 }

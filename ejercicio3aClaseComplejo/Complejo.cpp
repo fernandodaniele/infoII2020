@@ -43,8 +43,19 @@ Complejo &Complejo::establecerImaginario (double imaginario)
 	return *this;
 }
 
-void Complejo::imprimirComplejo() const
+Complejo &Complejo::imprimirComplejo()
 {
 	cout<< p << " + ("<< q << "i)\n";
+	return *this;
+}
+
+double Complejo::obtenerReal() const
+{
+	return p;
+}
+
+double Complejo::obtenerImaginario() const
+{
+	return q;
 }
 

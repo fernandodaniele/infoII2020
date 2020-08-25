@@ -10,7 +10,9 @@ class Complejo{
 		Complejo &establecerComplejo(double real, double imaginario);
 		Complejo &establecerReal(double real);
 		Complejo &establecerImaginario(double imaginario);
-		void imprimirComplejo ()const;
+		Complejo &imprimirComplejo ();
+		double obtenerReal() const;
+		double obtenerImaginario() const;
 		
 	private:
 		double p,q; //p parte real, q parte imaginaria	
