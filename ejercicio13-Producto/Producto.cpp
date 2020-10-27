@@ -5,12 +5,12 @@ Producto::Producto()
 	estNombre("");
 	estPrecio(0);
 }
-Producto::Producto(string n, int p)
+Producto::Producto(string n, float p)
 {
 	estNombre(n);
 	estPrecio(p);
 }
-long Producto::calcular(int cantidad)
+float Producto::calcular(int cantidad)
 {
 	return (cantidad*precio);
 }
@@ -18,7 +18,7 @@ void Producto::estNombre(string n)
 {
 	nombre = n;	
 }
-void Producto::estPrecio(long p)
+void Producto::estPrecio(float p)
 {
 	precio = p;
 }
@@ -26,7 +26,7 @@ string Producto::obtNombre()
 {
 	return nombre;
 }
-long Producto::obtPrecio()
+float Producto::obtPrecio()
 {
 	return precio;
 }

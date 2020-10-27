@@ -3,12 +3,12 @@
 Perecedero::Perecedero():Producto()
 {
 }
-Perecedero::Perecedero(string n, int p):Producto(n,p)
+Perecedero::Perecedero(string n, float p):Producto(n,p)
 {
 }
-long Perecedero::calcular(int cantidad)
+float Perecedero::calcular(int cantidad)
 {
-	long precioTotal = cantidad * precio;
+	float precioTotal = cantidad * precio;
 	switch(diasCaducar)
 	{
 		case 1:

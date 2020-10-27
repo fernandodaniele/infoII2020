@@ -9,7 +9,7 @@ using namespace std;
 class NoPerecedero : public Producto {
 	public:
 		NoPerecedero();
-		NoPerecedero(string n, int p);
+		NoPerecedero(string n, float p);
 		void estTipo(int);
 		int obtTipo();
 	private:

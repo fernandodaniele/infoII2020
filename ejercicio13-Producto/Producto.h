@@ -8,14 +8,14 @@ using namespace std;
 class Producto {
 	public:
 		Producto();
-		Producto(string n, int p);
-		long calcular(int);
+		Producto(string n, float p);
+		float calcular(int);
 		void estNombre(string);
-		void estPrecio(long);
+		void estPrecio(float);
 		string obtNombre();
-		long obtPrecio();
+		float obtPrecio();
 	protected:
-		long precio;
+		float precio;
 	private:
 		string nombre;	
 };

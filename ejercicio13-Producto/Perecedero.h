@@ -9,8 +9,8 @@ using namespace std;
 class Perecedero : public Producto {
 	public:
 		Perecedero();
-		Perecedero(string n, int p);
-		long calcular(int cantidad);
+		Perecedero(string n, float p);
+		float calcular(int cantidad);
 		void estDiasCaducar(int);
 		int obtDiasCaducar();
 	private:

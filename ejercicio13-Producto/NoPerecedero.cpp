@@ -4,7 +4,7 @@ NoPerecedero::NoPerecedero():Producto()
 {
 }
 
-NoPerecedero::NoPerecedero(string n, int p):Producto(n,p)
+NoPerecedero::NoPerecedero(string n, float p):Producto(n,p)
 {
 }
 void NoPerecedero::estTipo(int t)
